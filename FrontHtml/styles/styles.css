@@ -1,0 +1,16 @@
+body{
+    background-color: #0f0e17;
+    color: #fffffe;
+}
+.image {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 12px;
+  transition: transform 0.3s, background 0.3s;
+  background: #0f0e17; 
+}
+
+.image:hover {
+  transform: scale(1.1);
+  background: #e53170; 
+}
