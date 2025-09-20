@@ -41,11 +41,12 @@ Cada pasta/projeto dentro desse repositório geralmente segue uma estrutura pare
 
 
 1. Clone este repositório:  
-   ```bash
+```bash
    git clone https://github.com/Carloscb124/FrontEnd.git
+```
 
 2. Acesse a pasta do projeto:
- ```bash
+```bash
    cd FrontEnd
 ```
 
