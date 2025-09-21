@@ -50,11 +50,51 @@ Simulação de formulário de pedido:
 
 ---
 
+### 4. `form-botoes.html` - Testando Botões
+Formulário que apresenta os diferentes tipos de botões em HTML:
+
+- **Text** → Nome  
+- **Number** → Idade  
+- **Password** → Senha  
+- **Botões**:
+  - `type="button"` → Apenas clicável, pode receber eventos JS (ex: `onmouseover="alert()"`)  
+  - `type="reset"` → Limpa os campos do formulário  
+  - `type="submit"` → Envia os dados do formulário  
+
+👉 Uso: Mostra as diferenças entre botões de **ação customizada, reset** e **envio**.
+
+---
+
 ## 🚀 Como utilizar
 
 1. Abra qualquer arquivo `.html` no navegador.  
 2. Interaja com os campos e veja como cada input funciona.  
 3. Teste diferentes valores, formatos e submissões.  
+
+---
+
+### 5. `form-select.html` - Formulário com Select (Dropdown)
+Formulário que inclui um campo de seleção de cargo:
+
+- **Text** → Nome  
+- **Select (`<select>`)** → Cargo do usuário (Gerente, Diretor, Presidente)  
+- **Text** → Assunto  
+- **Botão de envio**
+
+👉 Uso: Ensina a trabalhar com **listas suspensas (dropdowns)** em formulários.
+
+---
+
+### 6. `form-textarea.html` - Formulário com TextArea
+Versão expandida do anterior, adicionando campo para mensagens longas:
+
+- **Text** → Nome  
+- **Select (`<select>`)** → Cargo do usuário (Gerente, Diretor, Presidente)  
+- **Text** → Assunto  
+- **Textarea (`<textarea>`)** → Campo para mensagens de múltiplas linhas  
+- **Botão de envio**
+
+👉 Uso: Mostra como criar campos de **entrada de texto mais extensos**, úteis em formulários de contato, feedback e suporte.
 
 ---
 
