@@ -1,4 +1,4 @@
-# FrontEnd Studies <img src="./assets/command.png"/>
+# FrontEnd Studies DIO <img src="./assets/command.png"/>
 
 
 <img src="./assets/cat-computer.gif" width="74"/>
@@ -9,7 +9,7 @@ Bem-vindo(a) à pasta de estudos de Front End
 
 ## Sobre
 
-Esse repositório é onde armazeno meus estudos, experimentos, exercícios e mini-projetos de Front End. O objetivo é praticar, testar ideias, consolidar conceitos fundamentais 
+Esse repositório é onde armazeno meus estudos do curso de FrontEnd da DIO, experimentos, exercícios e mini-projetos de Front End. O objetivo é praticar, testar ideias, consolidar conceitos fundamentais 
 e evoluir rumo a algo cada vez mais limpo, responsivo e mantenível.
 
 ---
