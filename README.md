@@ -1,4 +1,7 @@
-# FrontEnd Studies 📚
+# FrontEnd Studies <img src="./assets/command.png"/>
+
+
+<img src="./assets/cat-computer.gif" width="74"/>
 
 Bem-vindo(a) à pasta de estudos de Front End 
 
