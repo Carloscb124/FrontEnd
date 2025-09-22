@@ -104,3 +104,65 @@ Aqui:
 
 ---
 
+# Utilização de `<iframe>` no Projeto
+
+Este projeto utiliza a tag HTML `<iframe>` para incorporar conteúdo externo, especificamente um vídeo do YouTube.
+
+## O que é um `<iframe>`?
+
+`<iframe>` (Inline Frame) é um elemento HTML que permite incorporar outro documento HTML dentro do documento atual. É amplamente utilizado para:
+
+- Incorporar vídeos (YouTube, Vimeo)
+- Integrar mapas (Google Maps)
+- Exibir conteúdo de outros sites
+- Incorporar documentos (PDFs, apresentações)
+
+## Exemplo no Código
+
+```html
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/cErgMJSgpv0?si=2fYeea2YRRMDUypu" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+```
+
+## Atributos Principais
+Atributo	Descrição
+`<src>`	URL do conteúdo a ser incorporado
+`<width>`	Largura do iframe em pixels
+`<height`>	Altura do iframe em pixels
+`<title>`	Descrição acessível para leitores de tela
+`<frameborder>`	Define se há borda (0 = sem borda)
+`<allow>`	Especifica permissões de recursos
+`<allowfullscreen>`	Permite modo de tela cheia
+
+## Considerações de Segurança
+O uso de iframes requer atenção a aspectos de segurança:
+
+Referrer Policy: strict-origin-when-cross-origin protege informações de referência
+
+Permissões: O atributo allow controla quais recursos podem ser acessados
+
+Conteúdo Confiável: Sempre incorpore conteúdo de fontes confiáveis
+
+Responsividade
+Para melhor experiência em dispositivos móveis, considere adicionar estilos CSS para tornar o iframe responsivo:
+
+```css
+iframe {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+```
+## Acessibilidade
+Sempre inclua um atributo title descritivo
+Forneça uma alternativa para usuários que não podem visualizar o conteúdo
+Teste com leitores de tela
+Este iframe incorpora um tutorial ou demonstração relevante para o projeto.
