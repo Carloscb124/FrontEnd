@@ -31,7 +31,7 @@ Aqui vão as principais linguagens e ferramentas que vou estudar/testar:
 ## Estrutura dos Projetos
 
 Cada pasta/projeto dentro desse repositório geralmente segue uma estrutura parecida:
-
+```bash
 📁 FrontEnd/
 ├── 📁 NomeProjeto1/
 │ ├── index.html
@@ -41,7 +41,7 @@ Cada pasta/projeto dentro desse repositório geralmente segue uma estrutura pare
 ├── 📁 NomeProjeto2/
 │ └── ...
 └── ...
-
+```
 
 1. Clone este repositório:  
 ```bash
