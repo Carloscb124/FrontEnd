@@ -1,72 +1,114 @@
 # Estruturação e Formatação de Texto em HTML <img src="html.png"/>
 
-Este exemplo demonstra diferentes formas de estruturar e estilizar texto usando **tags HTML** básicas.  
-O objetivo é visualizar como cada tag altera a apresentação e semântica do conteúdo.
+Este repositório contém exemplos práticos de **HTML** voltados para o aprendizado de **estruturação de conteúdo**, **formatação de texto** e **uso de elementos semânticos**.
+
+O objetivo é visualizar como diferentes **tags HTML** alteram a apresentação e o significado do conteúdo.
 
 ---
 
 ## 📄 Arquivo: `index.html`
 
-### Elementos utilizados:
+Este arquivo demonstra o uso de **tags básicas de formatação** de texto.
 
-- **Texto simples**  
+### Elementos estudados:
+
+- **Texto simples**
   ```html
   Testando o HTML e sua estrutura
   ```
-  Apenas texto padrão.
 
-- **Itálico (`<i>`)**  
+- **Itálico (`<i>`)**
   ```html
   <i>HTML</i>
   ```
-  Deixa o texto em **itálico**, geralmente usado para destacar termos.
 
-- **Negrito + Sublinhado (`<u><strong>`)**  
+- **Negrito + Sublinhado (`<u><strong>`)**
   ```html
   <u><strong>HTML</strong></u>
   ```
-  Texto em **negrito** e **sublinhado** ao mesmo tempo.
 
-- **Marcação (`<mark>`)**  
+- **Marcação (`<mark>`)**
   ```html
   <mark>Testando</mark>
   ```
-  Destaca o texto com fundo amarelo (como se fosse marca-texto).
 
-- **Sobrescrito (`<sup>`)**  
+- **Sobrescrito (`<sup>`)**
   ```html
   HTML<sup>2</sup>
   ```
-  Exibe texto elevado, útil em fórmulas ou notas (ex: `x²`).
 
-- **Citação em bloco (`<blockquote>`)**  
+- **Citação em bloco (`<blockquote>`)**
   ```html
-  <blockquote> Testando o HTML e sua estrutura</blockquote>
+  <blockquote>Este é um bloco de citação</blockquote>
   ```
-  Indica um **bloco de citação**, destacado com recuo.
 
-- **Fonte (`<font>`)** *(obsoleta)*  
-  ```html
-  <font color="red" face="'Trebuchet MS', Tahoma"> Testando o HTML </font>
-  ```
-  Define cor e tipo de fonte diretamente no HTML.  
-  ⚠️ Essa tag é considerada **deprecated** (obsoleta). O recomendado hoje é usar **CSS**.
+Esse arquivo serve como introdução à **formatação de texto** em HTML.
 
 ---
 
-## 📄 Arquivo: `estrutura.html`
+## 📄 Arquivo: `estrutura.html` <img src="estrutura.png"/>
 
-### Estrutura do Site:
+Aqui é apresentado um **esqueleto de página HTML**, demonstrando a estrutura mínima de um documento:
 
-<img src="estrutura.png">
+- `<!DOCTYPE html>` → Define o tipo de documento.
+- `<html>` → Raiz do documento.
+- `<head>` → Informações da página (metadados, título, links de estilo).
+- `<body>` → Conteúdo visível ao usuário.
 
-## 🚀 Como visualizar
-
-1. Abra o arquivo `index.html` no navegador.  
-2. Veja como cada tag afeta a formatação do texto.  
-3. Experimente trocar cores, textos e fontes.
+Esse exemplo mostra **como organizar um documento HTML** corretamente.
 
 ---
 
+## 📄 Arquivo: `fildsets.html`
 
+Explora o uso das tags relacionadas a **formulários**:
 
+- `<fieldset>` → Agrupa elementos de um formulário em blocos lógicos.
+- `<legend>` → Define um título para o campo agrupado.
+- `<input>` → Campos de entrada de dados.
+
+Exemplo de estudo:
+```html
+<fieldset>
+  <legend>Informações Pessoais</legend>
+  Nome: <input type="text" />
+  Idade: <input type="number" />
+</fieldset>
+```
+
+Este arquivo mostra como **organizar formulários de maneira semântica**.
+
+---
+
+## 📄 Arquivo: `divSpan.tldr`
+
+Anotações e exemplos sobre o uso de:
+
+- `<div>` → Elemento de **bloco**, usado para agrupar seções maiores.
+- `<span>` → Elemento **inline**, usado para destacar partes do texto.
+
+Esse arquivo serve como **resumo de estudo** dessas duas tags muito usadas na organização de layouts.
+
+---
+
+## 📄 Arquivos de imagem
+
+- **estrutura.png** → Representação visual da estrutura de um documento HTML.  
+- **estrutura.png** → Complemento visual do arquivo `estrutura.html`.
+
+  <img src="estrutura.png"/>
+
+Essas imagens são usadas para **auxiliar o estudo** com esquemas visuais.
+
+---
+
+## 🎯 Objetivo
+
+Este material foi criado com o propósito de:
+
+- Servir como **guia prático** de HTML para iniciantes.  
+- Demonstrar o uso de **tags básicas e semânticas**.  
+- Mostrar **como estruturar textos e formulários** em páginas web.  
+
+---
+✍️ Criado para fins educacionais e de estudo.
