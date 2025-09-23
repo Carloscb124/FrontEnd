@@ -22,8 +22,8 @@ Aqui vão as principais linguagens e ferramentas que vou estudar/testar:
 - CSS3  
 - Javascript
 - Typescript
-- Frameworks: React.  
-- Ferramentas de build/local server: Live Server, Node,Js, etc.  
+- Frameworks: React, Bootstrap  
+- Ferramentas de build/local server: Live Server, Node.Js, etc.  
 - Controlador de versão: Git  
 
 ---
