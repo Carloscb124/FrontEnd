@@ -24,7 +24,7 @@ Isso ajuda tanto **navegadores** quanto **desenvolvedores** e
 
 Comparativo entre HTML4 e HTML5 Semântico:
 
-![HTML Semântico](HTML/Semantico/HTML5.png)
+![HTML Semântico]<img src="HTML5.png"/>
 
 ------------------------------------------------------------------------
 
