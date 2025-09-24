@@ -1,22 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tags HTML 5 - Estrutural</title>
+    <style>
+        nav ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+        }
+
+        nav ul li a{
+            padding: 10px 15px;
+            color: blue;
+            text-decoration: none;
+            border-radius: 15px 0;
+        }
+
+        nav ul li a:hover{
+            color: white;
+            background: blue;
+        }
+
+    </style>
+
 </head>
 <body>
+
     <header>
-
+        <nav>
+            <ul>
+                <li><a href="#">Item1</a></li>
+                <li><a href="#">Item2</a></li>
+                <li><a href="tel:15883377">Telefone</a></li>
+            </ul>
+        </nav>
     </header>
-
+    <!-- Main é uma tag que não pode ser filha -->
     <main>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+
+        <aside></aside>
 
     </main>
-
-    <footer>
-        
-    </footer>
+    <footer></footer>
 
 </body>
 </html>
