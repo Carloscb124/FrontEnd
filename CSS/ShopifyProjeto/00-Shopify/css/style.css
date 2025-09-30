@@ -1,81 +1,92 @@
+/* Define a cor de fundo de toda a página */
 body{
     background-color: #5c6ac4;
 }
 
+/* Estiliza a logo centralizando-a horizontalmente */
 #logo{
-    width: 180px;
-    display: block;
+    width: 180px; /* largura fixa */
+    display: block; /* transforma em elemento de bloco */
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto; /* centraliza usando auto */
 }
 
+/* Estilização do título principal */
 h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: italic;
-    font-size: 1.7em;
+    text-align: center; /* centraliza o texto */
+    color: white; /* cor da fonte */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* fonte */
+    font-style: italic; /* deixa itálico */
+    font-size: 1.7em; /* tamanho relativo */
 }
 
+/* Estilização dos parágrafos */
 p{
     text-align: center;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 600; /* peso da fonte (semi-negrito) */
     font-style: italic;
     font-size: 1.3em;
-    margin-top: 20px;
+    margin-top: 20px; /* espaço acima do parágrafo */
 }
 
+/* Campos de entrada (input) */
 input{
-    margin-top: 40px;
-    height: 50px;
-    width: 25%;
-    display: inline-block;
-    margin-left: 32%;
+    margin-top: 40px; /* espaço em cima */
+    height: 50px; /* altura do campo */
+    width: 25%; /* largura proporcional à tela */
+    display: inline-block; /* mantém alinhamento */
+    margin-left: 32%; /* centraliza "na marra" */
     font-size: 1em;
-    border-radius: 4px;
-    border: 1px solid #b8b8b8;
+    border-radius: 4px; /* bordas arredondadas */
+    border: 1px solid #b8b8b8; /* borda cinza clara */
 }
 
+/* Botão de envio */
 #button{
-    width: 10%;
-    height: 54px;
-    margin-left: 0;
-    background-color: #30373b;
-    border: none;
-    color: white;
+    width: 10%; /* largura menor que o input */
+    height: 54px; /* altura parecida com input */
+    margin-left: 0; /* gruda no input */
+    background-color: #30373b; /* fundo cinza escuro */
+    border: none; /* remove borda */
+    color: white; /* texto branco */
 }
 
+/* Efeito hover do botão (quando passa o mouse por cima) */
 #button:hover{
-    background-color: #309849;
+    background-color: #309849; /* muda cor do fundo */
 }
 
+/* Texto secundário (ex: subtítulo, legenda) */
 #subtexto{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
 }
 
+/* Imagem de dispositivos centralizada */
 #devices{
-    width: 25%;
+    width: 25%; /* ocupa 25% da tela */
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto; /* centraliza horizontalmente */
     margin-top: 50px;
 }
 
+/* Imagem de ondas no fundo da página */
 #ondas{
-    height: 80%;
+    height: 80%; 
     width: 100%;
-    position: absolute;
+    position: absolute; /* posiciona de forma fixa em relação à tela */
     left: 0;
-    bottom: 0;
-    z-index: -1; 
+    bottom: 0; /* gruda no rodapé */
+    z-index: -1;  /* manda para trás dos outros elementos */
 }
 
+/* Rodapé da página */
 #footer{
-    color: #b8b8b8;
-    margin-top: 100px;
+    color: #b8b8b8; /* cor de texto cinza claro */
+    margin-top: 100px; /* distância do conteúdo acima */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
 }
