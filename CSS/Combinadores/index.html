@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Combinadores</title>
+  <style>
+    div p { color: green; }       /* Descendente */
+    ul > li { color: red; }       /* Filho direto */
+    h1 + p { font-weight: bold; } /* Irmão adjacente */
+    h2 ~ p { font-style: italic;} /* Irmãos gerais */
+  </style>
+</head>
+<body>
+  <div>
+    <p>Sou descendente do div</p>
+    <section>
+      <p>Também sou descendente (mesmo aninhado)</p>
+    </section>
+  </div>
+
+  <ul>
+    <li>Sou filho direto</li>
+    <ol>
+      <li>Não sou filho direto do ul</li>
+    </ol>
+  </ul>
+
+  <h1>Título H1</h1>
+  <p>Sou irmão adjacente do H1</p>
+  <p>Não sou adjacente, mas poderia ser pego pelo ~</p>
+
+  <h2>Título H2</h2>
+  <p>Sou irmão geral do H2</p>
+  <p>Eu também sou irmão geral</p>
+</body>
+</html>
